@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="hook\hook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\plugin.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\imgui\imgui.cpp">
+      <Filter>hook\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\imgui\imgui_demo.cpp">
+      <Filter>hook\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\imgui\imgui_draw.cpp">
+      <Filter>hook\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\imgui\imgui_impl_opengl2.cpp">
+      <Filter>hook\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\imgui\imgui_impl_win32.cpp">
+      <Filter>hook\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\imgui\imgui_tables.cpp">
+      <Filter>hook\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\imgui\imgui_widgets.cpp">
+      <Filter>hook\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\minhook\src\buffer.c">
+      <Filter>hook\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\minhook\src\hook.c">
+      <Filter>hook\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\minhook\src\trampoline.c">
+      <Filter>hook\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\minhook\src\hde\hde32.c">
+      <Filter>hook\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\minhook\src\hde\hde64.c">
+      <Filter>hook\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="hookmgr.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="sdk\sdk.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc.h" />
+    <ClInclude Include="hook\hook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\plugin.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\imgui\imconfig.h">
+      <Filter>hook\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\imgui\imgui.h">
+      <Filter>hook\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\imgui\imgui_impl_opengl2.h">
+      <Filter>hook\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\imgui\imgui_impl_win32.h">
+      <Filter>hook\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\imgui\imgui_internal.h">
+      <Filter>hook\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\imgui\imstb_rectpack.h">
+      <Filter>hook\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\imgui\imstb_textedit.h">
+      <Filter>hook\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\imgui\imstb_truetype.h">
+      <Filter>hook\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\imgui\stb_image.h">
+      <Filter>hook\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\minhook\src\buffer.h">
+      <Filter>hook\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\minhook\src\trampoline.h">
+      <Filter>hook\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\minhook\src\hde\hde32.h">
+      <Filter>hook\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\minhook\src\hde\hde64.h">
+      <Filter>hook\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\minhook\src\hde\pstdint.h">
+      <Filter>hook\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\minhook\src\hde\table32.h">
+      <Filter>hook\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\minhook\src\hde\table64.h">
+      <Filter>hook\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\minhook\include\MinHook.h">
+      <Filter>hook\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="hookmgr.h" />
+    <ClInclude Include="sdk\player.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\playerobject.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\leveleditor.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hook">
+      <UniqueIdentifier>{6682246d-d063-44c7-93be-ffc2778cd658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook\ImGui">
+      <UniqueIdentifier>{3e34a275-5528-4381-85af-aa09128f3bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook\minhook">
+      <UniqueIdentifier>{9e3dc86d-9c29-4e6e-ba6e-d2a707aa963b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{91dea795-a51f-4481-a80b-6cd59c754846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
